@@ -6,30 +6,26 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Muhammed",
   middleName: "",
-  lastName: "Shoaib",
+  lastName: "Afsal",
   message: " Passionate about changing the world with technology. ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      url: "https://github.com/itsafzz",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://www.instagram.com/its_afzz.jpg/",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/muhammed-afsal-m-seo-expert/",
     },
     {
       image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "#",
     },
   ],
 };
@@ -51,11 +47,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/afz.jpg"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "Hi there! I'm Muhammed Afsal, an enthusiastic SEO analyst with a passion for all things related to information technology. With a keen eye for detail and a knack for decode digital trends, I thrive on optimizing online presence and driving traffic to websites. Having completed a Master's course in Digital Marketing, I've honed my skills and proven my expertise in maximizing visibility and engagement across various platforms. I'm committed to staying ahead in the ever-evolving landscape of digital marketing, continuously learning and implementing innovative strategies to achieve exceptional results. In my free time I like working on open source projects.",
+  resume: "https://drive.google.com/file/d/1n5Qm6D5ojIIPL7692gwB1lzNFUQHInvP/view?usp=drivesdk",
 };
 
 // PROJECTS SECTION
@@ -64,10 +60,10 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
+  show: false,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  gitHubUsername: "itsafzz", //i.e."johnDoe12Gh"
+  reposLength: 0,
   specificRepos: [],
 };
 
@@ -100,14 +96,14 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
+    { name: "SEO Techniques", value: 80 },
+    { name: "Keyword Research", value: 75 },
+    { name: "On-page & Off-page Optimization", value: 85 },
+    { name: "Technical SEO", value: 75 },
+    { name: "CMS Proficiency", value: 90 },
+    { name: "Data Analysis", value: 65 },
     { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Local SEO Strategies", value: 80 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -126,23 +122,23 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "an SEO analyst eager to contribute to dynamic business sectors. Let's team up to boost your online presence and drive growth. Reach out today, and let's make digital magic happen together! if you have any futher quories contact me throught mail",
+  email: "afzaljrd123@gmail.com",
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'SEO Analyst', '3C Brand Hub'
+      companylogo: require('src/editable-stuff/3c.jpg'),
+      date: 'March 2023 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Accountant cum Front Office Manager', 'JR Distributors'
+      companylogo: require('src/editable-stuff/jr.jpg'),
+      date: 'May 2020 – May 2022',
     },
   ]
 }
