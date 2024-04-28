@@ -132,7 +132,7 @@ const experiences = {
   data: [
     {
       role: 'SEO Analyst', '3C Brand Hub'
-      companylogo: require('src/editable-stuff/3c.jpg'),
+      companylogo: require('src/editable-stuff/3c.png'),
       date: 'March 2023 – Present',
     },
     {
